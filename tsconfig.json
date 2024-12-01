@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2018",
+    "module": "ES2020",
+    "lib": ["es2020", "DOM", "WebWorker"],
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "tsc",
+    "declaration": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@khulnasoft.com/partytown/integration": ["src/integration/index.ts"],
+      "@khulnasoft.com/partytown/services": ["src/integration/services.ts"],
+      "react": ["node_modules/react"]
+    }
+  },
+  "include": ["src", "scripts", "tests/unit"]
+}

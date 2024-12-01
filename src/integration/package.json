@@ -1,0 +1,6 @@
+{
+  "name": "@khulnasoft.com/partytown-integration",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "types": "index.d.ts"
+}
