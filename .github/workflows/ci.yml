@@ -39,7 +39,7 @@ jobs:
         run: npm run test.unit
 
       - name: Upload Chromium E2E Test Videos
-        uses: actions/upload-artifact@v4.3.1
+        uses: actions/upload-artifact@v4.4.3
         if: always()
         with:
           name: Chromium E2E Test Videos
@@ -76,7 +76,7 @@ jobs:
         run: npm run test.webkit
 
       - name: Upload WebKit E2E Test Videos
-        uses: actions/upload-artifact@v4.3.1
+        uses: actions/upload-artifact@v4.4.3
         if: always()
         with:
           name: WebKit E2E Test Videos Videos
@@ -113,7 +113,7 @@ jobs:
         run: npm run benchmark
 
       - name: Upload Chromium Benchmark Screenshots
-        uses: actions/upload-artifact@v4.3.1
+        uses: actions/upload-artifact@v4.4.3
         if: always()
         with:
           name: Chromium Benchmark Screenshots
