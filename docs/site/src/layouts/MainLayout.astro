@@ -23,7 +23,7 @@ const handleError = (err: any) => {
   throw err;
 };
 
-const topBarUrl = new URL('https://cdn.khulnasoft.com/api/v1/qwik/oss-top-bar');
+const topBarUrl = new URL('https://cdn.builder.io/api/v1/qwik/oss-top-bar');
 topBarUrl.searchParams.set('apiKey', apiKey);
 topBarUrl.searchParams.set('userAttributes.site', 'partytown.khulnasoft.com');
 topBarUrl.searchParams.set('userAttributes.url', new URL(Astro.request.url).pathname);
