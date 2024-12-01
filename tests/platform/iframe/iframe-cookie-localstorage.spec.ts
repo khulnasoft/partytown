@@ -30,7 +30,7 @@ test('iframe cookie & localStorage', async ({ page }) => {
   await crossOriginCookieButton.click();
   const crossOriginCookie = page.frameLocator('#iframe-cross-origin-cookie').locator('#test-cookie');
   await expect(crossOriginCookie).not.toContainText('foo=88');
-  expect(pageConsoleWarnings.length).toBe(2);
+  expect(pageConsoleWarnings.length).toBe(0);
   expect(pageConsoleWarnings.some(warning => warning.text().includes('Partytown unable to set cross-origin cookie'))).toBe(true);
   expect(pageConsoleWarnings.some(warning => warning.text().includes('Partytown unable to get cross-origin cookie'))).toBe(true);
   
