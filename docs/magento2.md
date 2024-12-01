@@ -59,7 +59,7 @@ Stores -> Configuration -> Perspective -> Partytown
 ## Optional: reverse-proxying scripts
 
 Given the peculiarities of the partytown library, you may encounter CORS errors when using certain scripts whose resources do not give the required headers. To avoid this, use reverse-proxying, the peculiarities and possible implementations are described here:
-<a href="https://partytown.khulnasoft.com/proxying-requests">Proxying Requests</a>
+<a href="https://partytown.builder.io/proxying-requests">Proxying Requests</a>
 
 You can also try using a self-hosted reverse-proxy solution 
 ( see example here <a href="https://github.com/rostilos/perspective-partytown/blob/2.0.0-alpha/docs/reverse-proxy.md">Node.js reverse-proxy example for partytown library</a> and here <a href="https://github.com/rostilos/perspective-partytown/blob/2.0.0-alpha/docs/reverse-proxy.md">Nginx reverse-proxy example for partytown library ( for warden ) </a>  ).

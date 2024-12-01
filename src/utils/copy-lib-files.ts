@@ -5,7 +5,7 @@ import { isAbsolute, resolve } from 'path';
  * Absolute path to the Partytown lib directory within the
  * `@khulnasoft.com/partytown` package.
  *
- * https://partytown.khulnasoft.com/copy-library-files
+ * https://partytown.builder.io/copy-library-files
  *
  * @public
  */
@@ -29,7 +29,7 @@ export function libDirPath(opts?: LibDirOptions) {
  * However, by setting the `debugDir` option to `false`, the debug directory will
  * not be copied.
  *
- * https://partytown.khulnasoft.com/copy-library-files
+ * https://partytown.builder.io/copy-library-files
  *
  * @public
  */

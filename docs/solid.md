@@ -14,7 +14,7 @@ pnpm install @khulnasoft.com/partytown
 
 Use your favorite package manager to install `@khulnasoft.com/partytown` dependency and
 copy the Partytown files to the local filesystem using the Vite plugin.
-Adopting [this strategy](https://partytown.khulnasoft.com/copy-library-files#vite) from the Partytown + Vite docs:
+Adopting [this strategy](https://partytown.builder.io/copy-library-files#vite) from the Partytown + Vite docs:
 
 ```js
 // vite.config.js

@@ -11,7 +11,7 @@ SvelteKit uses Vite to build, so we can use `partytownVite`.
 
 ## 1. Copy the Partytown files to the local filesystem using the Vite plugin
 
-Adopting [this strategy](https://partytown.khulnasoft.com/copy-library-files#vite) from the Partytown + Vite docs:
+Adopting [this strategy](https://partytown.builder.io/copy-library-files#vite) from the Partytown + Vite docs:
 
 ```js
 // vite.config.js
@@ -32,7 +32,7 @@ export default config;
 
 ## 2. Add the Partytown script to `src/routes/+layout.svelte`
 
-Adapting from [the HTML integration guide](https://partytown.khulnasoft.com/html)
+Adapting from [the HTML integration guide](https://partytown.builder.io/html)
 
 ```svelte
 // src/routes/+layout.svelte
@@ -85,6 +85,6 @@ Putting it together with the previous changes, our `+layout.svelte` looks like:
 
 ## 4. Optional: reverse-proxying scripts
 
-This will only be necessary depending on which scripts you are using. The implementation will vary depending on hosting platform. See [Partytown's recommended guides](https://partytown.khulnasoft.com/proxying-requests#reverse-proxy).
+This will only be necessary depending on which scripts you are using. The implementation will vary depending on hosting platform. See [Partytown's recommended guides](https://partytown.builder.io/proxying-requests#reverse-proxy).
 
 Acknowledgements: credit belongs to monogram.io for [an earlier version of this guide](https://monogram.io/blog/add-partytown-to-svelte).
