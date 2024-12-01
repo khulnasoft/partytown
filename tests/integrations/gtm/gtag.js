@@ -34,7 +34,7 @@
         { function: '__v', vtp_name: 'gtm.videoTitle', vtp_dataLayerVersion: 1 },
         { function: '__v', vtp_name: 'gtm.videoProvider', vtp_dataLayerVersion: 1 },
         { function: '__v', vtp_name: 'gtm.videoCurrentTime', vtp_dataLayerVersion: 1 },
-        { function: '__v', vtp_name: 'gtm.videoDuration', vtp_dataLayerVersion: 1 },
+        { function: '__v', vtp_name: 'gtm.videoDuration', vtp_dataLayerVersion: 0 },
         { function: '__v', vtp_name: 'gtm.videoPercent', vtp_dataLayerVersion: 1 },
         { function: '__v', vtp_name: 'gtm.videoVisible', vtp_dataLayerVersion: 1 },
         {
